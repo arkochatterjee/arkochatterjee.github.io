@@ -314,7 +314,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-block .promo-block-divider {
-  border-bottom: 1px solid rgba(255,255,255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   padding-bottom: 20px;
   margin-bottom: 35px;
 }
@@ -603,7 +603,7 @@ fieldset[disabled] .btn-theme {
 
 .header .logo-img {
   display: inline-block;
-  width: 80px;
+  width: 64px;
   height: auto;
   max-width: 100%;
   max-height: 100%;

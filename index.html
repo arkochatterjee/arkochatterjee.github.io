@@ -4,11 +4,11 @@
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8"/>
-        <title></title>
+        <title>Arko Chatterjee</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <meta content="" name="description"/>
-        <meta content="" name="author"/>
+        <meta content="Profile Website" name="description"/>
+        <meta content="Arko Chatterjee" name="author"/>
 
         <!-- GLOBAL MANDATORY STYLES -->
         <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
@@ -19,284 +19,22 @@
         <link href="css/animate.css" rel="stylesheet">
 
         <!-- THEME STYLES -->
-        <link href="css/layout.css" rel="stylesheet" type="text/css"/>
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico"/>
+
+        <link rel="shortcut icon" href="img/logo2.png"/>
+
+        <!--for education -->
+
+
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
     </head>
     <!-- END HEAD -->
-
-    <style>
-    .at-section__title {
-      margin: 0 0 70px;
-      color: #000;
-      font-family: 'Roboto', sans-serif;
-      font-size: 3.5rem;
-      font-weight: 300;
-      line-height: 2.625rem;
-      text-align: center;
-    }
-    .at-grid {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-      background: #FFF;
-      border: 1px solid #E2E9ED;
-    }
-    .at-grid[data-column="1"] .at-column {
-      width: 100%;
-      max-width: 100%;
-      min-width: 100%;
-      -ms-flex-preferred-size: 100%;
-          flex-basis: 100%;
-    }
-    .at-grid[data-column="2"] .at-column {
-      width: 50%;
-      max-width: 50%;
-      min-width: 50%;
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%;
-    }
-    .at-grid[data-column="3"] .at-column {
-      width: 33.33333%;
-      max-width: 33.33333%;
-      min-width: 33.33333%;
-      -ms-flex-preferred-size: 33.33333%;
-          flex-basis: 33.33333%;
-    }
-    .at-grid[data-column="4"] .at-column {
-      width: 25%;
-      max-width: 25%;
-      min-width: 25%;
-      -ms-flex-preferred-size: 25%;
-          flex-basis: 25%;
-    }
-    .at-grid[data-column="5"] .at-column {
-      width: 20%;
-      max-width: 20%;
-      min-width: 20%;
-      -ms-flex-preferred-size: 20%;
-          flex-basis: 20%;
-    }
-    .at-grid[data-column="6"] .at-column {
-      width: 16.66667%;
-      max-width: 16.66667%;
-      min-width: 16.66667%;
-      -ms-flex-preferred-size: 16.66667%;
-          flex-basis: 16.66667%;
-    }
-    .at-grid[data-column="7"] .at-column {
-      width: 14.28571%;
-      max-width: 14.28571%;
-      min-width: 14.28571%;
-      -ms-flex-preferred-size: 14.28571%;
-          flex-basis: 14.28571%;
-    }
-    .at-grid[data-column="8"] .at-column {
-      width: 12.5%;
-      max-width: 12.5%;
-      min-width: 12.5%;
-      -ms-flex-preferred-size: 12.5%;
-          flex-basis: 12.5%;
-    }
-    .at-grid[data-column="9"] .at-column {
-      width: 11.11111%;
-      max-width: 11.11111%;
-      min-width: 11.11111%;
-      -ms-flex-preferred-size: 11.11111%;
-          flex-basis: 11.11111%;
-    }
-    .at-column {
-      z-index: 0;
-      position: relative;
-      background: #FFF;
-      box-shadow: 0 0 0 1px #E2E9ED;
-      padding: 10px;
-      box-sizing: border-box;
-      -webkit-transition: box-shadow 0.2s ease, z-index 0s 0.2s ease, -webkit-transform 0.2s ease;
-      transition: box-shadow 0.2s ease, z-index 0s 0.2s ease, -webkit-transform 0.2s ease;
-      transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0.2s ease;
-      transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0.2s ease, -webkit-transform 0.2s ease;
-    }
-    .at-column:before {
-      content: "";
-      display: block;
-      padding-top: 100%;
-    }
-    .at-column:hover {
-      z-index: 1;
-      box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
-      -webkit-transform: scale(1.05);
-              transform: scale(1.05);
-      -webkit-transition: box-shadow 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
-      transition: box-shadow 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
-      transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease;
-      transition: box-shadow 0.2s ease, transform 0.2s ease, z-index 0s 0s ease, -webkit-transform 0.2s ease;
-    }
-    .at-column:hover .at-social {
-      margin: 16px 0 0;
-      opacity: 1;
-    }
-    @media (max-width: 800px) {
-      .at-column {
-        width: 50% !important;
-        max-width: 50% !important;
-        min-width: 50% !important;
-        -ms-flex-preferred-size: 50% !important;
-            flex-basis: 50% !important;
-      }
-    }
-    @media (max-width: 600px) {
-      .at-column {
-        width: 100% !important;
-        max-width: 100% !important;
-        min-width: 100% !important;
-        -ms-flex-preferred-size: 100% !important;
-            flex-basis: 100% !important;
-      }
-    }
-    .at-user {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      width: 100%;
-      -webkit-transform: translate(0, -50%);
-              transform: translate(0, -50%);
-      text-align: center;
-    }
-    .at-user__avatar {
-      width: 152px;
-      height: 152px;
-      border-radius: 100%;
-      margin: 0 auto 20px;
-      overflow: hidden;
-    }
-    .at-user__avatar img {
-      display: block;
-      width: 100%;
-      max-width: 100%;
-    }
-    .at-user__name {
-      color: #313435;
-      font-family: 'Roboto', sans-serif;
-      font-size: 1.5rem;
-      font-weight: 500;
-      line-height: 2.625rem;
-    }
-    .at-user__title {
-      color: #6F808A;
-      font-family: 'Roboto', sans-serif;
-      font-size: 0.875rem;
-      line-height: 2.375rem;
-    }
-    .at-social {
-      margin: 0 0 -18px;
-      opacity: 0;
-      -webkit-transition: margin 0.2s ease, opacity 0.2s ease;
-      transition: margin 0.2s ease, opacity 0.2s ease;
-    }
-    .at-social__item {
-      display: inline-block;
-      margin: 0 10px;
-    }
-    .at-social__item a {
-      display: block;
-    }
-    .at-social__item svg {
-      fill: #515F65;
-      display: block;
-      height: 18px;
-      -webkit-transition: fill 0.2s ease;
-      transition: fill 0.2s ease;
-    }
-    .at-social__item svg:hover {
-      fill: #788D96;
-    }
-    .k {
-        list-style-type: none;
-        margin: 0;
-        width: 100%;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-        font-family: montserrat;
-    }
-    .s {
-        float: left;
-    }
-    .s a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    .s a:hover {
-        background-color: #2c78a2;
-        color: white;
-        text-decoration: none;
-    }
-    .s .selected {
-        background-color: #2c78a2;
-    }
-    .down {
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-    }
-    .s .dropdown {
-        display: inline-block;
-    }
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-    }
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-    }
-    .dropdown-content a:hover {background-color: #f1f1f1; color: black;}
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-    .domain a{
-      padding: 9px;
-    }
-    .bordered {
-      padding: 50px;
-    }
-
-
-    .containercore {
-      max-width: 1170px;
-      width: 100%;
-      margin: 100px auto;
-      padding: 0 20px;
-      box-sizing: border-box;
-      -webkit-transform-origin: top center;
-              transform-origin: top center;
-      -webkit-transform: scale(0.8);
-              transform: scale(0.8);
-    }
-
-    #map {
-        height: 400px;
-        width: 100%;
-       }
-    </style>
-
 
     <!-- BODY -->
     <body id="body" data-spy="scroll" data-target=".header">
@@ -317,10 +55,10 @@
 
                         <div class="logo">
                             <a class="logo-wrap" href="#body">
-                                <img class="logo-img logo-img-main" src="img/logp.png" alt="Asentus Logo">
-                                <img class="logo-img logo-img-active" src="img/logp.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-main" src="img/logodark.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-active" src="img/logo2.png" alt="Asentus Logo">
                             </a>
-                        </div>                       <!-- End Logo -->
+                        </div>                        <!-- End Logo -->
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -329,8 +67,10 @@
                             <ul class="nav navbar-nav navbar-nav-right">
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#core">Core Committee Members</a></li>
 
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
+                                  <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#education">Education</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
                             </ul>
                         </div>
@@ -343,25 +83,22 @@
         <!--========== END HEADER ==========-->
 
         <!--========== SLIDER ==========-->
-        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/3.jpg">
+        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/02.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="promo-block-divider">
-
-
-                            <h1 class="promo-block-title">IMPRINT</h1>
-                              <p class="promo-block-text">English Literary Society</p>
-                            <p class="promo-block-text">Shri Shikshayatan College</p>
-
-
+                            <h1 class="promo-block-title">Hello </br> World!</h1>
+                            <p class="promo-block-text">I'm Arko Chatterjee</p>
+                              <!--  <p class="promo-block-text">Machine Learning Researcher | Android Developer | Graphic Designer</p> -->
                         </div>
                         <ul class="list-inline">
-                            <li><a href=" https://www.facebook.com/imprintssc/" class="social-icons" target="_blank"><i class="icon-social-facebook"></i></a></li>
-                            <li><a href="https://www.instagram.com/imprint.literarysociety/" class="social-icons" target="_blank"><i class="icon-social-instagram"></i></a></li>
-                            <li><a href="http://shrishikshayatancollege.org/" class="social-icons"><i class="icon-social-dribbble" target="_blank"></i></a></li>
-
-
+                            <li><a href=" https://www.facebook.com/chatterjee.arko" class="social-icons"><i class="icon-social-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/arkochatterjee" class="social-icons"><i class="icon-social-twitter"></i></a></li>
+                           <li><a href="https://github.com/arkochatterjee" class="social-icons"><i class="icon-social-github"></i></a></li>
+                            <li><a href="https://www.behance.net/arkochatte1ee1" class="social-icons"><i class="icon-social-behance"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/arko-chatterjee-98493110a/" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                              <li><a href="https://www.instagram.com/arko.chatterjee/" class="social-icons"><i class="icon-social-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -377,107 +114,467 @@
                 <div class="row">
                     <div class="col-sm-3 sm-margin-b-30">
                         <div class="text-right sm-text-left">
-                            <h2 class="margin-b-0">About Us</h2>
-                          <!--  <p>What I am all about.</p> -->
+                            <img src="img/arko3.png" alt="Profile Picture">
+                            <h2 class="margin-b-0">Intro</h2>
+                            <p>What I am all about.</p>
                         </div>
                     </div>
                     <div class="col-sm-8 col-sm-offset-1">
                         <div class="margin-b-60">
-                            <p>Imprint is the literary society of Shri Shikshayatan College , Kolkata. The impetus and the name came from our Principal Dr. Aditi Dey, the roadmap was provided by our teachers, and we set forth on a new journey. The society is administered by students under the guidance of the faculty members of the English Department - Dr. Debnita Chakravarti , Dr.Malini Mukherjee, Dr. Tania Chakravertty, Smt. Baidehi Mukherjee, Smt. Debolina Guha Thakurta and Smt. Antara Ghatak.</br></br>
+                            <p>I'm Arko Chatterjee, in my sophomore year, pursuing Electronics & Communication Engineering from SRM University,Kattankulathur.</p>
+                            <p>I'm interested in Machine Learning and IoT and looking for opportunities to learn and implement the same.
 
-It is an attempt to engage with literature more fully than the mere dictates of the syllabus. To allow what we read to upgrade not only our CVs but our identities, and improve not just our job-market worth but also our individual values.</p>
+</br></br>Currently I'm working on a Facial Recognition Model using Haar Cascade Classifier and Machine Learning under the Department of Computer Science Engineering, SRM University, Kattankulathur.
 
-                            <h4>IMPRESSIONS</h4>
-                            <p>“IMPRESSIONS” is the annual inter-college literary fest of “IMPRINT:MARK YOUR WORDS”. It is a celebration of the word- spoken, written, sung, etched, and even implied- through a range of events that foster creativity.</p>
+</br></br>Apart from these, I love to keep my hands dirty on Android Development and Graphic Designing.</p>
                         </div>
 
+                        <!-- Progress Box -->
+                        <div class="progress-box">
+                            <h5>Android Studio <span class="color-heading pull-right">85%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Firebase<span class="color-heading pull-right">79%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="79"></div>
+                            </div>
+                        </div>
 
+                        <div class="progress-box">
+                            <h5>Java<span class="color-heading pull-right">78%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="78"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Adode Photoshop <span class="color-heading pull-right">95%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Python<span class="color-heading pull-right">60%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>R Studio<span class="color-heading pull-right">55%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="55"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Arduino<span class="color-heading pull-right">50%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="50"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>HTML<span class="color-heading pull-right">58%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="58"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>CSS<span class="color-heading pull-right">60%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="60"></div>
+                            </div>
+                        </div>
+                        <!-- End Progress Box -->
                     </div>
                 </div>
                 <!--// end row -->
             </div>
         </div>
         <!-- End About -->
-        <div id="core">
-        <div class="containercore" style="margin-top:30px;" >
-              <h2 align="center" style="margin-top:0px;"><br>Core Committee Members</h2>
-          <div class="at-grid" data-column="3">
-            <div class="at-column">
-              <div class="at-user">
-                <div class="at-user__avatar"><img src="img/roshni.jpg"/></div>
-                <h3>Roshni Subramani</h3>
-                <p>President</p>
 
-              </div>
+        <!-- Experience -->
+        <div id="experience">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Experience</h2>
+                                <p>Basically what I've done</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row row-space-2 margin-b-4">
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service" data-height="height">
+                                        <div class="service-element">
+                                        <i class="service-icon icon-badge"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>Board Member & Head : Coding Domain</h3>
+                                            <p class="margin-b-5">TEAM WEB </br>SRM University</br>June 2017-Present</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                        <div class="service-element">
+                                          <i class="service-icon icon-badge"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3 class="color-white">IoT Developer</h3>
+                                            <p class="color-white margin-b-5">GenHybrid Labs</br>SRM University</br>August 2017-Present</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service" data-height="height">
+                                        <div class="service-element">
+                                            <i class="service-icon icon-badge"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>Lead Android Developer & Graphic Designer</h3>
+                                            <p class="margin-b-5">Aaruush</br>SRM University</br>August 2016-Present</p>
+                                        </div>
+                                        <!--<a href="#" class="content-wrapper-link"></a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!--// end row -->
+                            <div class="row row-space-2 margin-b-4">
+                                <div class="col-md-4 md-margin-b-4">
+                                  <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                      <div class="service-element">
+                                          <i class="service-icon icon-badge"></i>
+                                      </div>
+                                      <div class="service-info">
+                                          <h3 class="color-white">ML and IoT Intern</h3>
+                                          <p class="color-white margin-b-5">Hewlett-Packard</br>June 2017-August 2017</p>
+                                      </div>
+
+                                  </div>
+                                </div>
+                                <div class="col-md-4 md-margin-b-4">
+                                  <div class="service" data-height="height">
+                                      <div class="service-element">
+                                          <i class="service-icon icon-badge"></i>
+                                      </div>
+                                      <div class="service-info">
+                                          <h3>Full Stack Developer</h3>
+                                          <p class="margin-b-5">TEAM Imprint : Shri Shikshayatan College</br>October 2016 - December 2016</p>
+                                      </div>
+
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                      <div class ="service-element">
+                                          <i class="service-icon icon-badge"></i>
+                                      </div>
+                                      <div class="service-info">
+                                          <h3 class="color-white">Tech Team</h3>
+                                          <p class="color-white margin-b-5">Don Bosco School, Park Circus</br>September 2014-March 2016</p>
+                                      </div>
+
+                                  </div>
+                                </div>
+                            </div>
+                              <!--// end row -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
             </div>
-            <div class="at-column">
-              <div class="at-user">
-                <div class="at-user__avatar"><img src="img/beant.jpg"/></div>
-                <h3>Beant Kaur</h3>
-                <p>President</p>
-
-              </div>
-            </div>
-            <div class="at-column">
-              <div class="at-user">
-                <div class="at-user__avatar"><img src="img/radhika.jpg"/></div>
-                <h3>Radhika Mookerjee</h3>
-                <p>Joint Secretary</p>
-
-              </div>
-            </div>
-            <div class="at-column">
-              <div class="at-user">
-                <div class="at-user__avatar"><img src="img/suvoshree.jpg"/></div>
-                <h3>Suvoshree Bhattacherjee</h3>
-                <p>Joint Secretary</p>
-
-              </div>
-            </div>
-            <div class="at-column">
-              <div class="at-user">
-                <div class="at-user__avatar"><img src="img/aradhati.jpg" /></div>
-                <h3>Aradhita Biswas</h3>
-                <p>Treasurer</p>
-
-              </div>
-            </div>
-            <div class="at-column">
-              <div class="at-user">
-                <div class="at-user__avatar"><img src="img/jayeeta.jpg"/></div>
-                <h3>Jayeeta Bhowmick</h3>
-                <p>Treasurer</p>
-
-              </div>
-            </div>
-            <div class="at-column">
-              <div class="at-user">
-                <div class="at-user__avatar"><img src="img/fatema.jpg"/></div>
-                <h3>Fatima Chakkiwala</h3>
-                <p>Creative Head</p>
-
-              </div>
-            </div>
-            <div class="at-column">
-              <div class="at-user">
-                <div class="at-user__avatar"><img src="img/diyali.jpg"/></div>
-                <h3>Diyali Bhattacharya</h3>
-                <p>Technical Director</p>
-
-              </div>
-            </div>
-
-          <br><br>
-
         </div>
-      </div>
-    </div>
+        <!-- End Experience -->
+
+<!--EDUCATION -->
 
 
+    <div id="education">
+        <h2 class="margin-b-0" align="center">Education</h2>
+        <p align="center">From where I gained knowledge</p>
+
+
+
+<section id="cd-timeline" class="cd-container">
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+      <img src="" alt="">
+    </div> <!-- cd-timeline-img -->
+
+    <div class="cd-timeline-content">
+      <h2>Bachelor of Technology Degree</h2>
+      <h5>B.Tech in Electronics and Communication Engineering, SRM University, Kattankulathur, Chennai, India</h5>
+      <p>I am currently pursuing B.Tech in Electronics and Communication, from SRM University, Chennai, India.</p>
+    <!--  <a href="#0" class="cd-read-more">Read more</a> -->
+      <span class="cd-date"><h3>2016 - present </h3></span>
+    </div> <!-- cd-timeline-content -->
+  </div> <!-- cd-timeline-block -->
+
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-movie">
+      <img src="" alt="">
+    </div> <!-- cd-timeline-img -->
+
+    <div class="cd-timeline-content">
+      <h2>Indian School Certificate</h2>
+      <h5>Don Bosco School Park Circus, Kolkata</h5>
+      <p>Obtained 90.5% in ISC 2016 with 100 in Computer Science</p>
+      <span class="cd-date"><h3>2014 - 2016</h3></span>
+    </div> <!-- cd-timeline-content -->
+  </div> <!-- cd-timeline-block -->
+
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img cd-picture">
+      <img src="" alt="">
+    </div> <!-- cd-timeline-img -->
+
+    <div class="cd-timeline-content">
+      <h2>Indian Certificate for Secondary Education</h2>
+        <h5>Don Bosco School Park Circus, Kolkata</h5>
+      <p>Obtained 88.4% in ICSE 2014</p>
+
+      <span class="cd-date"><h3>2003 - 2014</h3></span>
+    </div> <!-- cd-timeline-content -->
+  </div> <!-- cd-timeline-block -->
+
+
+</section> <!-- cd-timeline -->
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+</div>
+<!--end OF EDUCATION -->
+        <!-- Work -->
+        <div id="work">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Works</h2>
+                            <p>Whatever I've built!</p>
+                        </div>
+                    </div>
+
+  <h2 align="center"> -- UNDER CONSTRUCTION --</h2>
+
+                    <!--
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <!-- Masonry Grid -->
+                        <!--
+                        <div class="masonry-grid row row-space-2">
+                            <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
+                                <!-- Work
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">Art Of Coding</h3>
+                                                <span>Clean &amp; Minimalistic Design</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
+                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
+                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
+                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                End Work --
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
+                                <!-- Work --
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x400/01.jpg" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">Art Of Coding</h3>
+                                                <span>Clean &amp; Minimalistic Design</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
+                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
+                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
+                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work --
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                                <!-- Work --
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x300/01.jpg" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">Art Of Coding</h3>
+                                                <span>Clean &amp; Minimalistic Design</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
+                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
+                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
+                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work --
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                                <!-- Work --
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x300/02.jpg" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">Art Of Coding</h3>
+                                                <span>Clean &amp; Minimalistic Design</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
+                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
+                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
+                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work --
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                                <!-- Work --
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">Art Of Coding</h3>
+                                                <span>Clean &amp; Minimalistic Design</span>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
+                                                        <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
+                                                        <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
+                                                        <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                            </div>
+                        </div>
+                        <!-- End Masonry Grid -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End Work -->
 
         <!-- Contact -->
-
-
         <div id="contact">
             <div class="bg-color-sky-light">
                 <div class="container content-lg">
@@ -492,42 +589,26 @@ It is an attempt to engage with literature more fully than the mere dictates of 
                             <div class="row">
                                 <div class="col-md-3 col-xs-6 md-margin-b-30">
                                     <h5>Location</h5>
-                                    <p>Shri Shikshayatan College, 11, Lord Sinha Road, Kolkata, West Bengal, 700 071</p>
+                                    <p>Room No : 108, PF Hostel, SRM University, Kancheepuram District, Chennai-603203, Tamil Nadu, India</p>
                                 </div>
                                 <div class="col-md-3 col-xs-6 md-margin-b-30">
                                     <h5>Phone</h5>
-                                    <p>+91 7044588681 <br> +91 8013379949</p>
+                                    <p>+918902067083</p>
                                 </div>
                                 <div class="col-md-3 col-xs-6">
                                     <h5>Email</h5>
-                                    <a href="mailto:imprint.literarysociety@gmail.com">imprint.literarysociety@gmail.com</a>
+                                  <p>  <a href="mailto:arkochaterjee@gmail.com">arkochatterjee@gmail.com</a> </p>
                                 </div>
-
+                                <div class="col-md-3 col-xs-6">
+                                    <h5>Web</h5>
+                                    <p>arkochatterjee.github.io</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!--// end row -->
                 </div>
             </div>
-
-                <div id="map">
-                <script>
-                  function initMap() {
-                    var uluru = {lat: 22.543345, lng: 88.348902};
-                    var map = new google.maps.Map(document.getElementById('map'), {
-                      zoom: 18,
-                      center: uluru
-                    });
-                    var marker = new google.maps.Marker({
-                      position: uluru,
-                      map: map
-                    });
-                  }
-                </script>
-                <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOZpIYRPNtYVD8y1-pNR3LWvZvGh9NGi0&callback=initMap">
-                </script>
-    </div>
         </div>
         <!-- End Contact -->
         <!--========== END PAGE LAYOUT ==========-->
@@ -537,17 +618,12 @@ It is an attempt to engage with literature more fully than the mere dictates of 
             <div class="content container">
                 <div class="row">
                     <div class="col-xs-6">
-                       <img class="footer-logo" src="img/logp.png">
+                       <img class="footer-logo" src="img/logo2.png" alt="Aircv Logo">
                     </div>
                     <div class="col-xs-6 text-right sm-text-left">
-                        <p class="margin-b-0"><a href="https://www.facebook.com/chatterjee.arko" target="_blank">Developed by Arko Chatterjee</a></p>
-                          <a href="https://arkochatterjee.github.io/" target="_blank">arkochatterjee.github.io</a>
-
+                        <p class="margin-b-0">Developed with love by Arko Chatterjee</p>
                     </div>
-
                 </div>
-
-
                 <!--// end row -->
             </div>
         </footer>
