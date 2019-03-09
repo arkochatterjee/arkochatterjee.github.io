@@ -1,0 +1,26 @@
+hr.style-gradient {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.indent{
+	margin-left: 20px;
+}
+
+textarea{
+	resize: none;
+}
+
+
+.btn.btn-default:hover{
+    background-color:#304eae;
+    color:white;
+    transition: .3s;
+   
+  }
+
+.form-control{
+	width: 70%;
+
+}
