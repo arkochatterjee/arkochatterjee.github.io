@@ -408,10 +408,21 @@
 	var doc = new jsPDF();
 
   var name = $('#name').val();
+    var reg = $('#regNumber').val();
 
 
 
- doc.text(23, 81, name);
+    doc.text(23, 10, "Aaruush 19");
+
+
+doc.text(23, 20, "Name :");
+ doc.text(23, 25, name);
+
+
+ doc.text(23, 35, "Registration Number :");
+  doc.text(23, 40, reg);
+
+
 	doc.save('Test.pdf');
 
 }

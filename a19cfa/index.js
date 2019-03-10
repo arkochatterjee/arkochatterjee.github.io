@@ -20,7 +20,7 @@ function login(){
 
   doc.text(23, 81, name);
 
-  doc.save('Aaruush.pdf');
+  //doc.save('Aaruush.pdf');
 
 
   writeUserData(name,reg,phno,email,firstpref,secondpref);
