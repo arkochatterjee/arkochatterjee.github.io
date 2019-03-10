@@ -26,6 +26,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jspdf.min.js"></script>
+      <script src="js/jquery-1.10.2.js"></script>
 
       <style>
         body {
@@ -101,7 +103,7 @@
 
 
 
-    <form action="#" method="post" name="form_name" id="form_id" class="form_class" onsubmit="login()" style="font-family: 'Roboto', sans-serif;color:white;opacity:0.9;font-size: 16px;font-weight: 300;">
+    <form action="success.html" method="post" name="form_name" id="form_id" class="form_class" onsubmit="login()" style="font-family: 'Roboto', sans-serif;color:white;opacity:0.9;font-size: 16px;font-weight: 300;">
             <!--Name -->
             <div class="form-group">
               <label for="name" style="font-weight:500;">Name <span style="color:#FF0000">*</span></label>
@@ -387,7 +389,7 @@
 <br>3. Also check your spam folder for any mail.<br>4. If you don't receieve the email within 10 minutes , email us at creatives@aaruush.net .<br></p><br><br>
 -->
    <br><br>
-      <p style="color:white;">      For Technical Issues Contact:<br> Arko Chatterjee +91 8902067083 <br>Pradhyuman Kumar Sahu +91 7014578704</p>
+      <p style="color:white;">For Technical Issues Contact:<br> Arko Chatterjee +91 8902067083 <br>Pradhyuman Kumar Sahu +91 7014578704</p>
 
   </div>
 
@@ -395,6 +397,26 @@
 
           </form>
         </div>
+
+        <input type="button" id="button" value="Submit - PDF"/>
+        <a href="javascript:genPDF()">Download PDF</a>
+
+        <script type="text/javascript">
+
+        function genPDF() {
+
+	var doc = new jsPDF();
+
+  var name = $('#name').val();
+
+
+
+ doc.text(23, 81, name);
+	doc.save('Test.pdf');
+
+}
+
+</script>
 
 
     <!-- /Intro -->
@@ -557,12 +579,13 @@
     <script>
       // Initialize Firebase
       var config = {
-        apiKey: "AIzaSyAtkHly3E2FI1oIutV13IU0iZr7I9OApIo",
-        authDomain: "aaruush-647ff.firebaseapp.com",
-        databaseURL: "https://aaruush-647ff.firebaseio.com",
-        projectId: "aaruush-647ff",
-        storageBucket: "aaruush-647ff.appspot.com",
-        messagingSenderId: "471217997243"
+      apiKey: "AIzaSyCR49idrM6XLlhcydXG-hiV1J9UiXuQ_l0",
+      authDomain: "aaruushportal-e0f94.firebaseapp.com",
+      databaseURL: "https://aaruushportal-e0f94.firebaseio.com",
+      projectId: "aaruushportal-e0f94",
+      storageBucket: "aaruushportal-e0f94.appspot.com",
+      messagingSenderId: "397378601069"
+
       };
       firebase.initializeApp(config);
     </script>

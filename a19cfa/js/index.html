@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>AARUUSH '19 - Coming Soon</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <!-- favicons
+	================================================== -->
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+
+    <!-- fonts
+    ================================================== -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!-- Font Awesome
+    ================================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body style="overflow: hidden">
+
+    <div id="particles-js"></div> <!-- STARS -->
+    
+    <img src="images/srm_logo.png" align="left" id="srm_logo" /> <!-- SRM LOGO -->
+    
+    <div class="hamburger"></div> <!-- MENU ICON -->
+    
+    <div class="overlay-menu">    <!-- MENU LINKS -->
+        <ul>
+            <li><a data-href="src/aboutus.html" class="nav-link">About Us</a></li>
+            <li><a data-href="src/initiatives.html" class="nav-link">Initiatives</a></li>
+            <li><a data-href="src/sponsors.html" class="nav-link">Sponsors</a></li>
+            <li><a data-href="src/workshops.html" class="nav-link">Workshops</a></li>
+            <li><a data-href="src/ca/index.html" class="nav-link">Campus Ambassador</a></li>
+            <li><a data-href="src/contact.html" class="nav-link">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!-- ===================== PLANETS ======================= -->
+    <div class="wrapper">
+        <div style="position: relative;left: 10%;top: 40%;">
+            <a href="#"><img class="ahead planet2" src="images/sat/earth.png" /></a>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <div style="position: relative;left: 45%;top: 15%;">
+            <a href="#"><img class="ahead planet1" src="images/sat/jupiter.png" /></a>
+        </div>
+    </div>
+    
+    <div class="wrapper">
+        <div style="position: relative;left: 45%;top: 70%;">
+            <a href="#"><img class="ahead planet3" src="images/sat/neptune.png" /></a>
+        </div>
+    </div>
+    
+    <!-- astronaut -->
+    <div class="wrapper">
+        <div style="position: relative;left: 84%;top: 67%;" class="astro">
+            <a href="#"><img class="ahead" src="images/flying_astro.png" /></a>
+        </div>
+    </div>
+    
+    <!--- =================== HEADER - LOGO =================== -->
+    <div id="header"><img src="images/header2.png" /></div>
+
+    <!-- ======================= ORBIT ======================== -->
+    <div class="fluid-container">
+        <div class="fluid">
+        </div>
+    </div>
+
+    <div class="bottomleft">
+        <p>&copy; Aaruush Creatives</p>
+    </div>
+
+    <!-- ================== Social Links ============================== -->
+    <div class="social-icons">
+        <div class="icon-bg"><a href="https://www.facebook.com/aaruush.srm/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true" title="Facebook"></i></a></div>
+        <div class="icon-bg"><a href="https://twitter.com/aaruushsrmist" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true" title="Twitter"></i></a></div>
+        <div class="icon-bg"><a href="https://www.instagram.com/aaruush_srm/" target="_blank"><i class="fa fa-instagram" aria-hidden="true" title="Insagram"></i></a></div>
+        <div class="icon-bg"><a href="https://www.youtube.com/channel/UC6mwWpwkZchii-oyWz0v3dw" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true" title="Youtube Channel"></i></a></div>
+        <div class="icon-bg"><a href="https://www.linkedin.com/company/aaruush-srm-university/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" title="Linkedin"></i></a></div>
+    </div>
+
+    <!-- ======================Fade Animation Overlay================= -->
+    <div class="fadein"></div>
+
+    <!-- Particle Script -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.4.2/lottie.min.js"></script>
+    <script>
+        
+        var navLink = document.getElementsByClassName('nav-link');
+        for (i = 0; i < 6; i++)
+        navLink[i].addEventListener('click', function () {
+            link = this.getAttribute('data-href');
+            document.querySelector('.fadein').classList.add('fadeinanime');
+            setTimeout(function () {
+                window.location.href = link;
+            }, 1000);
+        });
+    </script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
