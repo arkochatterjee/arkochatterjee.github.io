@@ -8,13 +8,19 @@ I'm Arko Chatterjee<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>IoT Developer
 <p>Research : <br><br><br>Research Intern at Indian Institute of Technology Kharagpur<br>
 Undergraduate Research Assistant at SRM Institute of Science and Technology<br><br>
 
-Experiance : <br>
+Experiance : <br><br>
 Software Engineering Intern at GAIUS Networks Inc. - New York, USA - April '19 to Presnet<br>
 Organiser : Envision and Technical Head at Aaruush, SRM-IST - July '16 to Present<br>
-Computer Vision Intern at Skybits Technologies Pvt. Ltd. - Dec '17 to Jan '18
-Summer Intern at Hewlett Packard - June '17 to July '18
+Computer Vision Intern at Skybits Technologies Pvt. Ltd. - Dec '17 to Jan '18<br>
+Summer Intern at Hewlett Packard - June '17 to July '18<br><br>
+
+I also published two papers in International Conferences catering to IoT and AI.<br>
+Apart from academics I am a big foodie, loves Rabindrasangeet and mentor my juniors in field of IoT, AI and academics!
 </p><!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
-<p> Here the links to my other profiles: <br> <a href="link1">LinkedIn</a> <br> <a href="link2">GitHub</a> and <br> <a href="link3">Twitter</a>.</p>
+<p> Here the links to my other profiles: <br> <a href="link1">LinkedIn</a> <br> <a href="link2">GitHub</a><br> <a href="link3">Twitter</a>.</p>
+
+<p> For more detailed information about me click on my<a href="https://drive.google.com/file/d/1mC4MehvQvD_pYPT-WGbXOyo0lktdlqZx/view?usp=sharing" target="blank"> Resume </a></p><br>
+
 
 You can also give your email ID for contacting you<!-- slightdelayhere-->, feel free to send me an email at<!-- longlonglongcomment --><a href="arkochatterjee@gmail.com">Email</a>.
 
