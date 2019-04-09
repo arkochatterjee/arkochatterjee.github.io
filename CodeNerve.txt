@@ -3,9 +3,15 @@
  "<span id="k">Hello World!</span>". <!-- sjkfhskjf -->
 
 I'm Arko Chatterjee<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>IoT Developer primarily focussed on Computer Vision | Android Developer | AI Enthusiast </p>
-<p>I'm currently in junior year at SRM Institute of Science and Technology, Chennai</p> <!-- ksjdokhdfgdufdfkjhfkjahdfkjhafkjhakf -->
-<p> You can also tell what you've worked and known and what skills you have, you can also give link to your professional portfolio here<a href="link"> portfolio</a>.</p><!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
-<p>Tell more about yourself. <br><br><br>Give your project links or something like that. <a href="link"> Here you go</a>.</p><!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
+<p>I'm currently in junior year at SRM Institute of Science and Technology, Chennai majoring in Electronics and Communication Engineering.</p> <!-- ksjdokhdfgdufdfkjhfkjahdfkjhafkjhakf -->
+<p>I'm fascinated by the wonders of IoT and AI and is always on a quest to integrate them to develop something unique to augment the lives of the poeple</p><!-- kjdhjhgdgldjhgdwtoiewotwotjdfkjdfffsf -->
+<p>Research : <br><br><br>Research Intern at Indian Institute of Technology Kharagpur<br><br>
+Undergraduate Research Assistant at SRM Institute of Science and Technology<br><br><br>
+
+Experiance : <br>
+Software Engineering Intern at GAIUS Networks Inc. - New York, USA<br>
+
+</p><!-- hsdgfhjfkdjhfkjsdhfkjdshfkjsdhfkjsdhkfjhdskjfhksdjhfkdsj -->
 <p> You can give links to other professional profiles you have on Internet, here: <br> <a href="link1">Profile1</a> <br> <a href="link2">Profile2</a> and <br> <a href="link3">Profile3</a>.</p>
 
 You can also give your email ID for contacting you<!-- slightdelayhere-->, feel free to send me an email at<!-- longlonglongcomment --><a href="arkochatterjee@gmail.com">Email</a>.
