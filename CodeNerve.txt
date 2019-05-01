@@ -8,7 +8,7 @@ I'm Arko Chatterjee<!-- laglaglaglaglaglaglaglaglaglaglaglag --><p>IoT Developer
 <p>Research : <br><br><br>Research Intern at Indian Institute of Technology Kharagpur<br>
 Undergraduate Research Assistant at SRM Institute of Science and Technology<br><br>
 
-Experiance : <br><br>
+Experience : <br><br>
 Software Engineering Intern at GAIUS Networks Inc. - New York, USA - April '19 to Presnet<br>
 Organiser : Envision and Technical Head at Aaruush, SRM-IST - July '16 to Present<br>
 Computer Vision Intern at Skybits Technologies Pvt. Ltd. - Dec '17 to Jan '18<br>
@@ -22,6 +22,6 @@ Apart from academics I am a big foodie, loves Rabindrasangeet and mentor my juni
 <p> For more detailed information about me click on my<a href="https://drive.google.com/file/d/1mC4MehvQvD_pYPT-WGbXOyo0lktdlqZx/view?usp=sharing" target="blank"> Resume </a></p><br>
 
 
-You can also give your email ID for contacting you<!-- slightdelayhere-->, feel free to send me an email at<!-- longlonglongcomment --><a href="arkochatterjee@gmail.com">Email</a>.
+You can also give your email ID for contacting you<!-- slightdelayhere-->, feel free to send me an email at<!-- longlonglongcomment --><a href="arkochatterjee@gmail.com"> Email </a>.
 
 <p>Cheers!</p>
