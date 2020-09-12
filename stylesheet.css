@@ -91,7 +91,10 @@ strong {
 
 heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0080ff;
+  padding-top: 200px;
 }
 
 papertitle {
