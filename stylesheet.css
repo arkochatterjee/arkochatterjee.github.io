@@ -97,6 +97,14 @@ heading {
   padding-top: 200px;
 }
 
+heading01 {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0080ff;
+  padding-top: 30px;
+}
+
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 15px;

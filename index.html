@@ -1,154 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arko Chatterjee</title>
+    <script src="https://kit.fontawesome.com/521f11b30a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+   
+  </head>
 
-<!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!-- DELETE THIS SCRIPT if you use this HTML, otherwise my analytics will track your page -->
- <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-40DYH0ZKV6"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <style>
+    .profile{
+      border-radius: 20px;
+      transform: scale(1.1);
+      width: 55%;
+      height: auto;
+      box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
+    }
 
-  gtag('config', 'G-40DYH0ZKV6');
-</script>
+    .justified-text {
+    text-align: justify;
+    }
+
+    .edu-logo{
+      width: 100%;
+     height: auto;
+    }
+
+    .work-logo{
+      width: 60%;
+     height: auto;
+    }
+
+    .thin-grey-line {
+      border: 0; /* Remove default border */
+      border-top: 1px solid rgb(138, 138, 138); /* Add a 1px solid grey border on top */
+      margin: 20px 0; /* Adjust margin as needed */
+    }
+
+    @media (min-width: 768px) {
+    .border-md-right {
+        border-right: 1px solid #ccc;
+    }
+}
+
+#scrollUpBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
 
 
- <!-- Primary Meta Tags --> 
-<title>Arko Chatterjee  : Portfolio Website</title>
-<meta name="title" content="Arko Chatterjee  : Portfolio Website">
-<meta name="description" content="Arko Chatterjee is the Director of Engineering at GAIUS Networks, a NYU (New York University) startup where he lead the engineering team to empower the next 3 billion mobile users to interact, transact and monetize with local content and communities.">
+  </style>
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="http://arkochatterjee.com/">
-<meta property="og:title" content="Arko Chatterjee  : Portfolio Website">
-<meta property="og:description" content="Arko Chatterjee is the Head of Engineering at GAIUS Networks, a NYU (New York University) startup where he lead the engineering team to empower the next 3 billion mobile users to interact, transact and monetize with local content and communities.">
-<meta property="og:image" content="images/Arko-Chatterjee.png">
+  <body>
+    <div class="container p-5">
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="http://arkochatterjee.com/">
-<meta property="twitter:title" content="Arko Chatterjee  : Portfolio Website">
-<meta property="twitter:description" content="Arko Chatterjee is the Head of Engineering at GAIUS Networks, a NYU (New York University) startup where he lead the engineering team to empower the next 3 billion mobile users to interact, transact and monetize with local content and communities.">
-<meta property="twitter:image" content="images/Arko-Chatterjee.png">
+        <button id="scrollUpBtn" class="btn btn-primary" onclick="scrollToTop()" title="Go to top">&#8679;</button>
 
 
-  <meta name="robots" content="index, follow" />
-
-
-  <meta name="author" content="Arko Chatterjee">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/png" href="images/seal_icon.png">
-</head>
-
-<body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Arko Chatterjee</name><br>
+        <div class="row"> <!-- start of intro -->
+            <div class="col-sm-12 col-md-6">
+            <p style="text-align:center">
+                <name>Arko Chatterjee</name>
+                <br>
                
               </p>
+
               <p style="text-align:center">  
                  
-                <a href="https://scholar.google.com/citations?user=kWd0p4wAAAAJ&hl=en" target="_blank">Research</a> &nbsp|&nbsp
-                <a href="#exp">Experience</a> &nbsp|&nbsp
-                <a href="https://github.com/arkochatterjee/" target="_blank">Projects</a> &nbsp|&nbsp
+              
+                <a href="#experience">Experience</a> &nbsp|&nbsp
+               
                 <a href="#education">Education</a> 
               
               </p>
-              <p style="text-align:center">  
+
+              <p style="text-align:center" >  
                  
-                a.chatterjee [at] se22 [dot] qmul [dot] ac [dot] uk
-                <br>
-        arkochatterjee [at] gmail [dot] com
               
-                <p>
+    <a href='mailto:arkochatterjee@gmail.com'>arkochatterjee@gmail.com</a>
+              
+                <p class="px-5 justified-text">
                   <br>
-                  Arko is currently pursuing MSc Big Data Science at <a href="https://www.qmul.ac.uk/" target="_blank">Queen Mary University of London (QMUL)</a>
-<br><br>
-He also serves as the Director of Engineering at <a href="https://flipped.ai" target="_blank">flipped.ai</a>, a <a href="https://www.nyu.edu/" target="_blank">New York University (NYU)</a>  startup where we enable employers source talent faster and more efficiently using advanced predictive algorithms and NLP.
 
+                  Arko is a Data Scientist at <a href="https://www.qmul.ac.uk/" target="_blank"><strong>Deloitte UK</strong></a> working on GenAI x ML.
+                  <br><br>
+                  He brings proven track record of over 5 years in the tech industry, with a strong emphasis on Natural Language Processing (NLP) and expertise in Large Language Models (LLMs) and Generative AI . <br><br>
                 
-           <br><br>
-              He also conceptualized and built Parakrama, a <b>personalized geriatric care solution</b> powered by AI, which was among the top 10% of applicants at Y Combinator Summer '21. 
+                  He graduated Masters with Distinction in Data Science from <a href="https://www.qmul.ac.uk/" target="_blank"><strong>Queen Mary University of London (QMUL)</strong></a> advised by Dr. Ignacio Castro. 
+                  <br><br>
+                  Previously, he steered AI and Product at <a href="https://flipped.ai" target="_blank"><strong>flipped.ai</strong></a>, spin out of NYU that's revolutionizing talent intelligence capabilities through LLMs x GenAI. Prior to that, he conceptualized and built Parakrama, a <b>personalized geriatric care solution</b> powered by AI, which was among the top 10% of applicants at Y Combinator Summer '21 and also interned at <a href="http://www.iitkgp.ac.in/" target="_blank"><strong>IIT Kharagpur</strong></a> and <strong>Hewlett Packard</strong>.
+                 
 
 
-           <br><br>
-          He previously interned at <a href="http://www.iitkgp.ac.in/" target="_blank">IIT Kharagpur</a> and Hewlett Packard.
-        
-              <!-- <p class="content">  When he is not hacking algorithms and webapps, he loves to fiddle around with latest technologies around AI and Blockchain, participate <b>&lt;and win&gt;</b> in hackathons  and mentor young developers! -->
 
 
 
             <br><br>
-            When he dosen't &lt;/&gt;, he loves to go out for long drives and would give anything to have a quick nap :)</p>
+            When he dosen't &lt;/&gt;, he loves to go out for long drives and would give anything to have a quick nap :)</p> 
               
+          </div>
 
-              <p style="text-align:center">
+          <div class="col-sm-12 col-md-6">
+
+            <div class="text-center pt-5">
+                <img src="images/arko-1.png" class="img-fluid profile">
+                <br><br><br>
+                <i class="fa-solid fa-map-pin fa-beat-fade" style="color: #e50000;"></i>&nbsp; London, UK
+                <br><br>
+                <p style="text-align:center">
                
-                <a href="/cv/CV_Arko-Chatterjee_Dec'20.pdf" target="_blank">CV</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/arko-chatterjee/" target="_blank">LinkedIn</a> &nbsp/&nbsp
-                <a href="https://github.com/arkochatterjee/" target="_blank">Github</a> &nbsp/&nbsp
-                <a href="https://twitter.com/ArkoChatterje16" target="_blank">Twitter</a>&nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=kWd0p4wAAAAJ&hl=en" target="_blank">Google Scholar</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/Arko-Chatterjee.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/Arko-Chatterjee.png" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-          <!--  <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
-              <p>
-             yet to think :)
-              </p>
-              <!-- <p>
-                Representative papers are <span class="highlight">listed under Publications</span>.
-              </p> -->
-
-            </td>
-          </tr>
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td>
-              <heading>News</heading>
-              <ul>
-                <li><strong>[September 2022]</strong> Commenced MSc in Big Data Science at Queen Mary University of London</li>
+                    <a href="https://drive.google.com/file/d/1QPHV-7xDVx1q3EkYG7TtMkUP6AulgXLR/view?usp=sharing" target="_blank">CV</a> &nbsp/&nbsp
+                    <a href="https://www.linkedin.com/in/arko-chatterjee/" target="_blank">LinkedIn</a> &nbsp/&nbsp
+                    <a href="https://github.com/arkochatterjee/" target="_blank">Github</a> &nbsp/&nbsp
+                    <!-- <a href="https://twitter.com/ArkoChatterje16" target="_blank">Twitter</a>&nbsp/&nbsp -->
+                    <a href="https://scholar.google.com/citations?user=kWd0p4wAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                  </p>
+            </div>
           
-                <li><strong>[October 2021]</strong> Promoted to Director of Engineering at GAIUS Networks INC</li>
-                <li><strong>[November 2020]</strong> Promoted to Head of Engineering at GAIUS Networks INC</li>
-                <li><strong>[September 2020]</strong> Demo Paper accepted at ACM Mobicom 2020 <a href="https://dl.acm.org/doi/abs/10.1145/3372224.3417316" target="_blank">[link]</a></li>
-  
-              </ul>
-            </td>
-          </tr>
-        </table>
+          </div>
+         
+        </div> <!-- end of intro -->
 
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td>
-              <heading>Achievements</heading>
-              <ul>
+
+    <!-- start of news + activities -->
+        <div class="row px-5 pt-2"> 
+            <div class="col-sm-12 col-md-6">
+
+                <heading01>News</heading01>
+       
+                <ul class="pt-2">
+                   
+                    <li><strong>[March 2024]</strong> Commenced role at Deloitte UK as Data Scientist at their London offices.</li>
+                    <li><strong>[October 2023]</strong> Graduated MSc with Distinction in Big Data Science at Queen Mary University of London</li>
+                 
+                    <li><strong>[October 2021]</strong> Promoted to Data Science Lead at GAIUS Networks INC (Flipped.ai)</li>
+                   
+                    <li><strong>[September 2020]</strong> Demo Paper accepted at ACM Mobicom 2020 <a href="https://dl.acm.org/doi/abs/10.1145/3372224.3417316" target="_blank">[link]</a></li>
+      
+                  </ul>
+              
+           
+                 
+      
+              
+          </div>
+
+          <div class="col-sm-12 col-md-6">
+
+            <heading01>Achievements</heading01>
+            <ul>
+
+                <li>Most unorthodox hack at <b>Hack-GPT '23</b>, London's firt LLM Hackathon.</li>
                 
                 <li>Finalist at <a href="https://twitter.com/txhcc/status/1369347531218563079/photo/2" target="_blank">Texas Healthcare Hackthon '21</a> with incubation support</li>
 
                
-                <li>3rd Position at <a href="https://srmctrlaltcodeiot.hackerearth.com/" target="_blank">Ctrl-Alt-Code National Level IoT Hackathon</a> winning cash price of $150 </li>
+                <li>3rd Position at <a href="https://srmctrlaltcodeiot.hackerearth.com/" target="_blank">Ctrl-Alt-Code National Level IoT Hackathon</a></li>
 
 
                 <li>Finalist and Special Mention at <a href="https://www.hackerearth.com/challenges/hackathon/accenture-blockchain-hackathon/">Accenture Blockchain Hackathon 2018</a> </li>
 
-                <li>Quater Finalist at <a href="https://innovate.mygov.in/india-innovation-challenge-design-contest-2017/">India Innovation Challenge 2017</a> powered by DST & Texas Instruments winning $200</li>
+                <li>Quater Finalist at <a href="https://innovate.mygov.in/india-innovation-challenge-design-contest-2017/">India Innovation Challenge 2017</a> powered by Department of Science & Technology, Govt. of India & Texas Instruments (TI)</li>
                 <li>First Runner's Up at <b>Mozilla Hackathon 2017</b></li>
                 <li>First Runner's Up at <b>SRM IET Hackathon 2017</b></li>
 
@@ -156,302 +173,239 @@ He also serves as the Director of Engineering at <a href="https://flipped.ai" ta
   
 
               </ul>
-            </td>
-          </tr>
-        </table>
-
-
-             <!-- Research/Work Experience -->
-             <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="education"><tbody>
-              <tr>
-                <td>
-                  <heading>Education</heading>
-                </td>
-              </tr>
-            </tbody></table>
-    
-            <table style="width:100%;border:0px;border-spacing:15px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <!-- <heading>Publications</heading> -->
-              <tr>
-                
-    
-                <!--squint-->
-          <td width="30%"><img src="images/QMUL-logo-1024x273.jpg" alt="QMUL, London" width="190"  style="border-style: none">
-            <td valign="top" width="70%">
-              <strong>Master of Science (MSc) - Big Data Science <br><i>School of Electronic Engineering and Computer Science (EECS)</i><br>Queen Mary University of London, London, UK <a href="https://www.qmul.ac.uk/" target="_blank">[open]</a> </strong>
-              <br>
-              <em>September 2022 - Present </em> 
-              <p>
-                <!-- ◦   Defended undergradute thesis <strong>"Carotid Artery Abnormalities using Computational Intelligence"</strong><br>Supervisors : <a href="https://www.srmist.edu.in/ece/faculty/dr-s-dhanalakshmi" target="_blank">Prof. S. Dhanalakshmi</a>, Associate Professor, Dept. of ECE, SRM-IST KTR -->
-              </p>
-             
-            </td>
-          </tr>
-              <tr>
-                
-    
-                    <!--squint-->
-              <td width="30%"><img src="images/srm-institute-of-science-and-technology-vector-logo.png" alt="SRM-IST, Chennai" width="150"  style="border-style: none">
-                <td valign="top" width="70%">
-                  <strong>Bachelor of Technology (BTech) - Electronics and Communication Engineering <br>SRM Institute of Science and Technology, Chennai, India <a href="https://www.srmist.edu.in/" target="_blank">[open]</a> </strong>
-                  <br>
-                  <em>June 2016 - May 2020  </em> 
-                  <p>
-                    ◦   Defended undergradute thesis <strong>"Carotid Artery Abnormalities using Computational Intelligence"</strong><br>Supervisors : <a href="https://www.srmist.edu.in/ece/faculty/dr-s-dhanalakshmi" target="_blank">Prof. S. Dhanalakshmi</a>, Professor, Dept. of ECE, SRM-IST KTR
-                  </p>
-                 
-                </td>
-              </tr>
-              <br>
-              <tr>
-    
-    
-             
-    
-           
-              
-             
             
-    
-            </tbody></table>
-
-        <!-- Research/Work Experience -->
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="exp"><tbody>
-          <tr>
-            <td>
-              <heading>Experience</heading>
-            </td>
-          </tr>
-        </tbody></table>
-
-        <table style="width:100%;border:0px;border-spacing:15px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <!-- <heading>Publications</heading> -->
-          <tr>
-
-              <!--squint-->
-              <td width="30%"><img src="images/GAIUS-black.png" alt="IITKgp" width="150"  style="border-style: none">
-                <td valign="top" width="70%">
-                  <strong>Director of Engineering<br>GAIUS Networks INC <a href="https://gaiusnetworks.com/" target="_blank">[open]</a></strong>
-                 <br> <em>Oct 2021 - Present</em>
-               <br>
-                
-                <p>
-                  ◦ Leading the engineering team of 10 to build <a href="https://flipped.ai" target="_blank">flipped.ai</a> were employers source talent faster and more efficiently using advanced predictive algorithms and NLP.
-                  <br>
-                  ◦ Spearheading engineering efforts and good coding practices across the team. 
-                  <br>
-                  ◦ Reporting to the CEO and Co-Founder and responsible for making strategic decisions to ensure scalability of platform and managing client partnerships.
+          
+          </div>
+         
+        </div> 
+        <!-- end of news + activities -->
+       
 
 
-             <br><br>
-                <b> Head of Engineering [Nov '20 - Oct '21]</b>
-                    <br><br>
-                    
+         <!-- work -->
+         <div class="row px-5" id="experience">
+            <heading01>Experience</heading01>
 
-                    ◦ Managed and built core features and building blocks of flipped.ai - NLP Parsers, Scheduling and many more during our pivot stage.
-                    <br>
-                    ◦ Responsible for scaling platform to concurrently handle large influx of usage and improving personalization by a factor of <b>xx%</b>.
-                    <br>
-
-                    ◦ Built NLP pipelines in parsing data points from candidate CV's thereby reducing manual effort by a factor of <b>xx%</b>.
-                    <br><br>
-                    <b>Skills :</b> EdTech · skLearn · NLTK · openCV · spaCy · Tensorflow · Keras · Docker · AWS
-
-             <br>
-                    <br>
-                  <b> Senior Full Stack Engineer [Dec '19 - Nov '20]</b> <br><em>joined as an Intern since April '19 and was offered <b>PPO</b> (Pre Placement Offer)</em> <br>
-                    <br>
-                 
-              
-                  ◦  Joined the founding team <b>(veterans from NYU and University of Cambridge)</b> as a software engineer to empower the next 3 billion mobile users to interact, transact and monetize with local content and communities.<br>
-                 
-                      ◦ Built serveral microservices and backend architecture to support the vision hyperlocal engagement platform to the last mile.<br>
-                     ◦ GAIUS Networks was one of the participating startups for 12 week <b>Facebook (Meta) London Accelerator</b> Programme in 2019. <a href="https://developers.facebook.com/success-stories/gaiusnetwork/" target="_blank">[story on Meta Developers page]</a> </a>
-                    <br><br>
-                    
-                     <b>Skills :</b> Python · Flask · Django · API · Microservices · SQL · Firebase(FCM) · Nginx · Gunicorn · Heroku · Azure 
-                     <hr>
+            <!-- single work -->
+            <div class="col-12 pt-4">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3">
+                <img src="images/Deloitte-logo-black.svg.png" alt="Deloitte" class="img-fluid work-logo pt-4 pl-5">
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <strong>Consultant : Data Scientist<br>Deloitte <a href="https://www2.deloitte.com/uk/en/explore/home.html" target="_blank">[open]</a></strong>
+                    <br>London, UK <br>
+                    <br> <em>March 2024 - Present</em><br>
                   
-                  </p>
-
-
-
-                </td>
+                        
+              </div>
+              <div class="col-sm-12 col-md-6">
                 
-              </tr>
-             
-              <tr>
-
-
-            <!--squint-->
-            <td width="30%"><img src="images/IIT_Kharagpur_Logo.svg.png" alt="IITKgp" width="150"  style="border-style: none">
-            <td valign="top" width="70%">
-              <strong>Research Intern<br>Indian Institute of Technology Kharagpur, India <a href="http://www.iitkgp.ac.in/" target="_blank">[open]</a></strong>
-             <br> <em>Summer 2018</em><br><br>
-             <b>Supervisors : <a href="http://www.facweb.iitkgp.ac.in/~niloy/" target="_blank">Prof. Niloy Ganguly</a> and <a href="http://cse.iitkgp.ac.in/~mmallick/" target="_blank">Dr. Madhumita Mallick</a></b>
-            <p>
-              ◦ Researched on <strong>"Transient Anomaly Detection in Smart Homes"</strong> within the Complex Networks Research Group <a href="http://www.cnergres.iitkgp.ac.in/" target="_blank"><strong>[CNeRG]</strong></a> at IIT Kharagpur. <br>
-                    ◦ Implemented <b>Apriori Algorithm</b> and fault injection method using <b>Weibull Distribution</b> and <b>2 state Markov Model</b> to correlate sensor data collected from Smart Devices in order to predict Transient Anomaly of the sensors based on <b>ADLs (Activity of Daily Life).</b>
-                  <br><br>
-                    <b>Skills :</b> Sensors · Python · Pandas · Numpy · Weibull Distribution · Statistics</p>
-                    <hr>
-      
+               <p>
+                 ◦ Working on GenAI x ML in the Tax and Legal Service Line at Deloitte UK. <br>
+               </p>
                     
+          </div>
+            </div>
+            </div>
+            <hr class="thin-grey-line">
+              <!-- end single work -->
+
+               <!-- single work -->
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3">
+                <img src="images/GAIUS-black.png" alt="GAIUS" class="img-fluid work-logo pt-4 pl-5">
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <strong>Data Science Lead<br>Flipped.ai (GAIUS Networks INC) <a href="https://flipped.ai/" target="_blank">[open]</a></strong>
+                    <br>Cambridge, UK + India<br>
+                    <br> <em>Oct 2021 - Feb  2024</em>
+                     <br> <br>
+                     previously<br>
+                    <b> Senior Data Scientist [Nov '20 - Oct '21] 
+                     <br> Data Scientist [Dec '19 - Nov '20]</b> <br><em>joined as an Intern since April '19 and was offered <b>PPO</b> (Pre Placement Offer)</em> <br>
+                  
+                        
+              </div>
+              <div class="col-sm-12 col-md-6">
+                
+               <p>
+                
+                    ◦ Leading the AI research team in the development of a state-of-the-art CV parsers and skills-based recommendation engines. 
+                    <br>
+                    ◦ Implemented cutting-edge techniques of NLP, to extract nuanced semantic and syntactic information from structured and unstructured data.
             
-            </td>
-          </tr>
-          <tr>
-
-            <!--squint-->
-            <td width="30%"><img src="images/srm-institute-of-science-and-technology-vector-logo.png" alt="SRM-IST, Chennai" width="150"  style="border-style: none">
-            <td valign="top" width="70%">
-              <strong>Undergraduate Research Assistant<br>SRM Institute of Science and Technology Chennai, India <a href="https://www.srmist.edu.in/" target="_blank">[open]</a> </strong>
-              <br>
-              <em>January 2018 - May 2020</em> 
-              <p>
-                <b>Supervisor : <a href="https://www.srmist.edu.in/ece/faculty/dr-s-dhanalakshmi" target="_blank">Prof. S. Dhanalakshmi</a></b><br>
-                ◦ Researched on <b>Carotid Artery Abnormalities using Computational Intelligence</b> to execute new pre-processing techniques and benchmark results for predicting abnormalities employing <b>Capsule Network</b> to overcome translational variance. 
-                <br><br>
-                <b>Skills :</b> Python · Pandas · Numpy · skLearn · Tensorflow · CNN</p>
-
-                <b>Supervisor : <a href="https://www.srmist.edu.in/engineering/it/faculty/dr-a-shanthini" target="_blank">Prof. A. Shanthini</a></b>
-<br>
-
-◦ Worked on <b>Prognosis of Microaneurysm and early diagnosis system for non - proliferative diabetic retinopathy using Deep Convolution Neural Network</b> to suggest best algorithms and models to achieve maximum validation accuracy within the provided dataset. <br><br>
-<b>Skills :</b> Python · Pandas · Numpy · skLearn · Tensorflow · CNN</p>
-
-<b>Supervisor : <a href="https://www.srmist.edu.in/engineering/ece/faculty/p-eswaran" target="_blank">Prof. P. Eswaran</a></b>
-<br>
-◦ Worked on <b>Smart Water Irrigation for Industry 4.0</b> to setup a microprocessor prototype handling all MQTT communications and deploying an interactive web-interface through Flask.
-<br><br>
-                <b>Skills :</b> Python · MQTT Protocol ·  Arduino · ESP8266 · Flask · Firebase(FCM)
-                <hr>
-              </p>
-             
-            </td>
-          </tr>
-          <br>
-          <tr>
-
-              <!--squint-->
-              <td width="30%"><img src="images/SkyBits-logo-small.png" alt="SRM-IST, Chennai" width="150"  style="border-style: none">
-                <td valign="top" width="70%">
-                  <strong>Computer Vision Intern<br>  SkyBits Technologies Pvt. Ltd. <a href="http://sky-bits.com/" target="_blank">[open]</a> </strong>
-                  <br>
-                  <em>Winter 2017</em> 
-                  <p>
-                    ◦ Developed a Mood Detection model using pre-trained <b>VGG-16</b> architecture which detects 6 different type of moods utilizing <b>FER-2013 repository</b> and deployed the model through an interactive webapp using Django.
-                    <br><br>
-                    <b>Skills :</b> Python · Pandas · Numpy · skLearn · Tensorflow · CNN · Django
-                    <hr>
-
-                  </p>
+                    <br>
+                    ◦ Engineered and implemented NLP & LLM-backed hiring co-pilot, reducing manual efforts by xx%.
+  
+  
+               <br>
                  
-                </td>
-              </tr>
-              <br>
+                   
+                
+                    ◦  Joined the founding team <b>(academics from NYU and University of Cambridge)</b> to empower the next 3 billion mobile users to interact, transact and monetize with local communities.<br>
+                   
+                        
+                       ◦ GAIUS Networks was one of the participating startups for 12 week <b>Facebook (Meta) London Accelerator</b> Programme in 2019. <a href="https://developers.facebook.com/success-stories/gaiusnetwork/" target="_blank">[story on Meta Developers page]</a> </a>
+               </p>
+                    
+          </div>
+            </div>
+            </div>
+            <hr class="thin-grey-line">
+              <!-- end single work -->
 
+               <!-- single work -->
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3">
+                <img src="images/IIT_Kharagpur_Logo.svg.png" alt="iitkgp" class="img-fluid work-logo pt-4 pl-5">
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <strong>Research Intern<br>Indian Institute of Technology Kharagpur<a href="http://www.iitkgp.ac.in/" target="_blank">[open]</a></strong>
+                    <br>Kharagpur, India <br>
+                    <br> <em>Summer 2018</em><br><br>
+                 
+                  
+                        
+              </div>
+              <div class="col-sm-12 col-md-6">
 
-              <tr>
+                <b>Supervisors : <a href="http://www.facweb.iitkgp.ac.in/~niloy/" target="_blank">Prof. Niloy Ganguly</a> and <a href="http://cse.iitkgp.ac.in/~mmallick/" target="_blank">Dr. Madhumita Mallick</a></b>
+                <br><br>
+                
+               <p>
+                
+                ◦ Researched on <strong>"Transient Anomaly Detection in Smart Homes"</strong> within the Complex Networks Research Group <a href="http://www.cnergres.iitkgp.ac.in/" target="_blank"><strong>[CNeRG]</strong></a> at IIT Kharagpur. <br>
+                ◦ Implemented <b>Apriori Algorithm</b> and fault injection method using <b>Weibull Distribution</b> and <b>2 state Markov Model</b> to correlate sensor data collected from Smart Devices in order to predict Transient Anomaly of the sensors based on <b>ADLs (Activity of Daily Life).</b>
+               </p>
+                    
+          </div>
+            </div>
+            </div>
+            <hr class="thin-grey-line">
+              <!-- end single work -->
 
-                   <!--squint-->
-              <td width="30%"><img src="images/1024px-HP_logo_2012.svg.png" alt="SRM-IST, Chennai" width="100"  style="border-style: none"> </td>
-                <td valign="top" width="70%">
-                  <strong>Summer Intern<br>Hewlett Packard </strong>
+               <!-- single work -->
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3">
+                <img src="images/SkyBits-logo-small.png" alt="skybits" class="img-fluid work-logo pt-4 pl-5">
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <strong>Computer Vision Intern<br>  SkyBits Technologies Pvt. Ltd. <a href="http://sky-bits.com/" target="_blank">[open]</a> </strong>
+                    <br>Kolkata, India <br>
+                    <br>
+                    <em>Winter 2017</em> 
+              </div>
+              <div class="col-sm-12 col-md-6">
+               <p>
+                
+                ◦ Developed a Mood Detection model using pre-trained <b>VGG-16</b> architecture which detects 6 different type of moods utilizing <b>FER-2013 repository</b> and deployed the model through an interactive webapp using Django.
+               </p>
+                    
+          </div>
+            </div>
+            </div>
+            <hr class="thin-grey-line">
+              <!-- end single work -->
+
+                 <!-- single work -->
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3">
+                <img src="images/1024px-HP_logo_2012.svg.png" alt="skybits" class="img-fluid work-logo pt-4 pl-5">
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <strong>Summer Intern<br>Hewlett Packard </strong>
+                    <br>Kolkata, India <br>
                   <br>
                   <em>Summer 2017</em> 
-                  <p>
-                    ◦ Researched and presented a white paper on ”Demystify the Proposal of a Smart City in Bidhannagar and Rajarhat using Machine Learning, IoT and AI” under the supervision of Mr. Chiranjib Banerjee.
-                    <hr>
-
-                  </p>
-                 
-               
-                </td>
+              </div>
+              <div class="col-sm-12 col-md-6">
+               <p>
                 
-              </tr>
-              
-              
- 
-          
+                ◦ Researched and presented a white paper on ”Demystify the Proposal of a Smart City in Bidhannagar and Rajarhat using Machine Learning, IoT and AI”.
+               </p>
+                    
+          </div>
+            </div>
+            </div>
+            <hr class="thin-grey-line">
+              <!-- end single work -->
 
-       
-          
-         
         
+        </div>
+        <!-- end of work -->
 
-        </tbody></table>
-
-
-     
-         <!-- Research/Work Experience -->
-         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" id="activites"><tbody>
-          <tr>
-            <td>
-              <heading>Activities</heading>
-            </td>
-          </tr>
-        </tbody></table>
-
-        <table style="width:100%;border:0px;border-spacing:15px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <!-- <heading>Publications</heading> -->
-          <tr>
-            
-
-            <!--squint-->
-      <td width="30%"><img src="images/envision-3.png" alt="Team Envision" width="190"  style="border-style: none">
-        <td valign="top" width="70%">
-          <strong>Founder and Organizer<br> Team Envision, Aaruush, SRM IST <a href="https://envision.aaruush.org/" target="_blank">[open]</a> </strong>
-          <br>
-          <em>March 2019 - March 2020</em> 
-          <p>
-            ◦ Lead and mentored the consortium of AI, IoT, Blockchain, Web App Developers and Visual Designers who work
-            closely to ideate, design, fabricate and develop products to tackle campus and community issues and problems.
-            <br>
-            ◦ Lead and mentored members of Team Envision to win National Level Hackathons viz.(Smart India Hackathon,
-            Accenture Blockchain Hackathon, Hack36, Code2Create) and receiving accolades from notable leaders in
-            tech industry
-            <br>
-            ◦ Previously Led the App Development Team consisting of : Android & iOS Developers | UI/UX Designers.
-            Our App was the 7th Trending Application in Top Free Events Category in Play Store within a day of launch
-            <br>
-            
-
-          </p>
-         
-        </td>
-      </tr>
-         
-          <br>
-      
-
-
-         
-
-       
-          
-         
-        
-
-        </tbody></table>
-        
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-                  <hr>
-                  <p align="center">
-                    <quote>We will not only use the machines for their intelligence, we will also collaborate with them in ways that we cannot even imagine. ~ Fei-Fei Li</quote>
-
-                  <font>(Design and CSS courtesy: <a href="https://jonbarron.info/">Jon Barron</a>, <a href="https://abhoi.github.io/">Amlaan Bhoi</a> and <a href="https://purvaten.github.io/">Purva Tendulkar</a>)</font>
-                  </p>
+         <!-- education -->
+         <div class="row px-5" id="education">
+            <heading01>Education</heading01>
+            <div class="col-sm-12 col-md-6 border-md-right">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                <img src="images/QMUL-logo-1024x273.jpg" alt="QMUL, London" class="img-fluid edu-logo pt-4 pl-5">
+                </div>
+                <div class="col-sm-12 col-md-8">
+                <strong>Master of Science (MSc) - Big Data Science <br><i>School of Electronic Engineering and Computer Science (EECS)</i><br>Queen Mary University of London, London, UK <a href="https://www.qmul.ac.uk/" target="_blank">[open]</a> </strong>
+              <br>
+              <em>September 2022 - September 2023 </em> 
+              <p class="pt-2">
+                ◦ Defended masters thesis <strong>"Unveiling the Applicability of Topic Modeling Metrics in Resume Analysis"</strong><br>Supervisors : <a href="http://eecs.qmul.ac.uk/people/profiles/castroignacio.html" target="_blank">Prof. Ignacio Castro</a>, Lecturer, EECS, QMUL
               </p>
-            </td>
-          </tr>
-        </tbody></table>
-      </td>
-    </tr>
-  </table>
-</body>
+              </div>
+            </div>
+            </div>
 
+            <div class="col-sm-12 col-md-6">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                <img src="images/srm-institute-of-science-and-technology-vector-logo.png" alt="SRM" class="img-fluid edu-logo pt-4 pl-5">
+                </div>
+                <div class="col-sm-12 col-md-8">
+                    <strong>BTech - Electronics and Communication Engineering <br>SRM Institute of Science and Technology, India <a href="https://www.srmist.edu.in/" target="_blank">[open]</a> </strong>
+                    <br>
+                    <em>June 2016 - May 2020  </em> 
+                    <p class="pt-2">
+                      ◦ Defended undergradute thesis <strong>"Carotid Artery Abnormalities using Computational Intelligence"</strong><br>Supervisors : <a href="https://www.srmist.edu.in/ece/faculty/dr-s-dhanalakshmi" target="_blank">Prof. S. Dhanalakshmi</a>, Professor, Dept. of ECE, SRM-IST KTR
+                    </p>
+              </div>
+            </div>
+            </div>
+        </div>
+        <!-- end of education -->
+
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+    
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollUpBtn").style.display = "block";
+            } else {
+                document.getElementById("scrollUpBtn").style.display = "none";
+            }
+        }
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+    
+  </body>
 </html>
